@@ -12,11 +12,60 @@
     {%- endif %}
   </head>
   <body>
-    <h1 id="title">{{ title }}</h1>
-    <p>Report generated on {{ date }} at {{ time }} by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
-        v{{ version }}</p>
+    <div class="header">
+      <div class="title_image">
+        <img src="data:image/png;base64,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" alt="">
+      </div>
+      <h1 class="title">{{ title }}</h1>
+      <h3 class="title_sub">Firmware Integration and Validation</h3>
+    </div>
+    <p style="color: red;">Intel confidential - Internal use only</p>
     <div id="environment-header">
-      <h2>Environment</h2>
+      <h2>Configuration</h2>
     </div>
     <table id="environment"></table>
     <!-- TEMPLATES -->
@@ -71,7 +120,7 @@
           {{ p|safe }}
           {%- endfor %}
         </div>
-        <p class="run-count">{{ run_count }}</p>
+        <!--  <p class="run-count">{{ run_count }}</p> -->
         <p class="filter">(Un)check the boxes to filter the results.</p>
         <div class="summary__reload">
           <div class="summary__reload__button {{ 'hidden' if running_state == 'finished' }}" onclick="location.reload()">

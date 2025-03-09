@@ -27,9 +27,9 @@ class ReportData:
             "passed": {"label": "Passed", "value": 0},
             "skipped": {"label": "Skipped", "value": 0},
             "xfailed": {"label": "Expected failures", "value": 0},
-            "xpassed": {"label": "Unexpected passes", "value": 0},
-            "error": {"label": "Errors", "value": 0},
-            "rerun": {"label": "Reruns", "value": 0},
+            # "xpassed": {"label": "Unexpected passes", "value": 0},
+            # "error": {"label": "Errors", "value": 0},
+            # "rerun": {"label": "Reruns", "value": 0},
         }
 
         self._results_table_header = [
